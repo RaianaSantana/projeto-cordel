@@ -12,8 +12,6 @@
 }
 
 * {
-    width: 100%;
-    height: 100vh;
     margin: 0px;
     padding: 0px;
     font-size: 30px;
@@ -22,7 +20,8 @@
 }
 
  html, body {
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
     background-color: darkgray;
     font-family: var(---fonte1);
     
@@ -80,10 +79,11 @@ section > p {
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.432);
-    padding: 10px;
-    width: 380px;
+    margin-top: -50px;
+    width: 332px;
     text-shadow: 1px 1px 0px black;
 }
+
 
 #img01 {  
     background-image: url('../background001.jpg');
